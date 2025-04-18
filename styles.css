@@ -1,0 +1,81 @@
+/* Estilo personalizado de la barra de navegación */
+.custom-navbar {
+  background-color: #1c1c1c;
+  padding: 15px 30px;
+}
+
+.custom-navbar .navbar-brand {
+  color: #f5c542;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #fff;
+}
+
+.custom-navbar .nav-link {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f5c542;
+}
+
+.custom-navbar .nav-link.active {
+  color: #f5c542;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link.disabled {
+  color: #888;
+}
+
+.custom-navbar .form-control {
+  background-color: #2e2e2e;
+  border: none;
+  color: #fff;
+}
+
+.custom-navbar .form-control::placeholder {
+  color: #ccc;
+}
+
+.custom-navbar .btn-outline-light {
+  border-color: #f5c542;
+  color: #f5c542;
+}
+
+.custom-navbar .btn-outline-light:hover {
+  background-color: #f5c542;
+  color: #1c1c1c;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: #f5c542;
+}
+
+em {
+  color: #917426;
+}
